@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Names of all screens  -->
+    <string name="app_name">Umra</string>
+    <string name="main_screen_name_string">UMRA</string>
+    <string name="title_black_stone_screen">Zurück zum schwarzen Stein</string>
+    <string name="title_ihram_screen">Ihram</string>
+    <string name="title_place_ibrohim_stand_screen">Ort, an dem Prophet Ibrahim gestanden ist</string>
+    <string name="title_round_kaaba_screen">Kaaba umkreisen</string>
+    <string name="title_safa_and_marva_screen">Hügel Safa und Marwa</string>
+    <string name="title_settings_screen">Einstellungen</string>
+    <string name="title_shave_head_screen">Kopf rasieren oder Haare kürzen</string>
+    <string name="title_shave_head_screen_string">Kopf rasieren - Haare kürzen</string>
+    <string name="title_water_zamzam_screen">Trinken von Zamzam-Wasser</string>
+    <string name="title_link_book_screen">Link zum Buch</string>
+
+    <!--  Resources for the ihram screen  -->
+    <string name="entering_the_state_string">Trete an einem bestimmten Ort (Mikat) in den Zustand des Ihram ein</string>
+    <string name="words_when_entering_the_state_of_ihram_string">Wenn du in den Zustand des Ihram eintrittst, sprich:</string>
+    <string name="dua_labbayka_string">Labbayka Allahumma bi-Umrah\n
+        \nWende dich zur Kaaba und sage:</string>
+    <string name="dua_facing_qibla_string">Allahumma hazihi umrah\nlaa riyaa’a feeha wa laa sum’ah\n
+        \nOh Allah, diese Umrah -\ndarin gibt es keine Heuchelei und kein Streben nach Ansehen!\n
+        \n
+        \nDann beginne laut die Talbiyah auszusprechen.:</string>
+    <string name="dua_talbi_string">“Labbaik Allahumma labbaik! Labbaik la sharika laka labbaik! Innal hamda wan ni’mata laka wal mulk, la sharika lak”\n
+    \n(«Hier bin ich, o Allah, hier bin ich! Hier bin ich, kein Partner ist bei Dir, hier bin ich! Wahrlich, alle Lobpreisungen und Gaben sind Dein, und das Königreich ist Dein, kein Partner hast Du.!»)\n
+    \nWenn man die heilige Grenze von Mekka erreicht hat und die Häuser von Mekka sieht, sollte man das Wiederholen der Talbiyah beenden.
+    </string>
+    <string name="entering_reserved_mosque_string">Betritt die Heilige Moschee\n
+       mit dem rechten Fuß und sage :</string>
+    <string name="dua_after_entering_mosque_string">Allahumma, salli ala Muhammadin wa sallim!\nAllahumma, ftahli abwaba rahmatika!\n
+        \nO Allah, segne und grüße Muhammad!\nO Allah, öffne mir\ndie Türen deiner Barmherzigkeit!</string>
+    <string name="conditioning_of_hajj_or_umrah_string">Bedingungen für die Haddsch oder Umrah</string>
+    <string name="dua_to_condition_hajj_to_talbia_string">Wenn ein Pilger befürchtet, dass irgendein Grund ihn daran hindern könnte, den Hajj bis zum Ende durchzuführen - sei es Krankheit oder Angst -, dann kann er seinen Hajj vor dem Aussprechen der Talbiya vor Allah bedingen, indem er das sagt, was der Gesandte Allahs gelehrt hat, Friede und Segen Allahs seien auf ihm:\n</string>
+    <string name="meaning_of_dua_when_conditioning_hajj_or_umrah_string">«Allahumma mahhilli haitsu habastani»\n
+        \n«O Allah, mach, dass ich dort anhalte, wo du mich zum Anhalten bringen möchtest».\n
+        \nDieser Hadith ist als authentisch überliefert. Siehe auch "Sahih Abi Dawud» (1776).\n
+        \nDeshalb, wenn ein Pilger so handelt und etwas ihn aufhält oder er krank wird, ist es ihm erlaubt, den Zustand des Ihrams beim Vollzug der Hadsch oder Umrah zu verlassen, und er muss kein Tier als Sühne opfern und die Hadsch nicht wiederholen, es sei denn, dies war seine erste obligatorische Hadsch, die in diesem Fall wiederholt werden muss.</string>
+
+    <!--  Resources for the RoundKaaba screen  -->
+    <string name="beginning_of_seven_fold_crawl_string">"Beginnen Sie mit der siebenmaligen Umrundung\nder Kaaba (Tawaf).
+        \nDanach berührt der Pilger den Schwarzen Stein mit seiner Hand und küsst ihn.
+        \nWenn es nicht möglich ist, den Schwarzen Stein zu küssen, sollte man ihn mit der Hand berühren\n
+        \nWenn es nicht möglich ist, den Schwarzen Stein zu berühren und zu küssen, soll man sich ihm mit dem Gesicht zuwenden, mit der rechten Hand auf ihn zeigen und "Takbir" aussprechen: "Allahu Akbar" (Allah ist der Größte). Dies sollte während jeder Umrundung der Kaaba geschehen.)</string>
+    <string name="beginning_of_crawl_from_black_stone_string">Beginne den siebenfachen Tawaf um die Kaaba vom Schwarzen Stein aus. Der Weg vom Schwarzen Stein zum Schwarzen Stein gilt als ein Rundgang. Wenn du einen neuen Rundgang beginnst, zeige mit deiner rechten Hand auf den Schwarzen Stein und sage Takbir. Während des gesamten Tawaf tragen Männer ihre rechte Schulter frei. Die ersten drei Runden müssen Männer schnell gehen, während die restlichen vier Runden in normalem Tempo absolviert werden können. Wenn möglich, berühre während jedes Rundgangs die Jemen-Ecke. Jedes Mal, wenn du zwischen der Jemen-Ecke und dem Schwarzen Stein gehst, solltest du sagen:</string>
+    <string name="dua_to_the_lord_string">“Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan waqina ’adhaban-nar”\n
+        \n(«Unser Herr! Gib uns Gutes im Diesseits und Gutes im Jenseits und bewahre uns vor der Peinigung des Feuers!», Sure Al-Baqara, Vers 201).</string>
+
+    <!--  Resources for the PlaceIbrohimStand screen  -->
+    <string name="namaz_after_the_round_string">Gebet nach der Umkreisung der Kaaba</string>
+    <string name="dua_after_the_round_string">Wa-ttahizu mim-makaami Ibraahiima musallaa</string>
+    <string name="having_completed_seven_fold_bypass_string">Nach Abschluss der siebenmaligen Umkreisung der Kaaba bedeckt der Mann seine rechte Schulter. Dann gehen Sie zum Standort von Ibrahim und sagen:</string>
+    <string name="performing_prayer_at_place_of_ibrohim_string">«Wählen Sie als Ort des Gebets also den Standort von Ibrahim" (Sure 2, Vers 125). Wenn möglich, führen Sie an der Stelle von Ibrahim oder an einem anderen Ort in der Haram-Moschee zwei Rak'at des Gebets aus. Vergessen Sie nicht, eine Barriere vor sich zu errichten, damit niemand zwischen Ihnen und dieser Barriere hindurchgeht. Im ersten Rak'at nach der Sure 1 "Al-Fatiha - Die Eröffnende" rezitieren Sie die Sure 109 "Al-Kafirun - Die Ungläubigen", und im zweiten Rak'at nach der Sure "Al-Fatiha" rezitieren Sie die Sure 112 "Al-Ikhlas - Die Reinheit des Glaubens". Nach dem Gebet gehen Sie zum Zamzam-Wasserbrunnen.</string>
+
+    <!--  Resources for the WaterZamzam screen  -->
+    <string name="water_zam_zam_string">Trinke das Wasser und gieße es dir auf den Kopf\n
+        \nDjabir (möge Allah mit ihm zufrieden sein) berichtete: "Der Prophet (Friede und Segen Allahs seien auf ihm) begab sich zum Brunnen von Zamzam, trank daraus und goss sich das Wasser über den Kopf." Überliefert von Ahmad (3/394) und Ibn Huzayma (4/305). Die Authentizität dieses Hadiths wurde von Az-Zarkashi, Badrud-Din al-’Ayni und Shu’aib al-Arna’ut bestätigt. Siehe ’Umdatul-Qari (9/227), Hashiya ’ala al-Manasik (S. 263) und Tahdhib al-Musnad (15243).\n
+        \nNach Jabir (möge Allah mit ihm zufrieden sein) sagte der Gesandte Allahs (Frieden und Segen Allahs seien auf ihm): "Wasser von Zamzam fördert die Erfüllung dessen, wofür es getrunken wird". Ahmad (3/357), Ibn Majah (3062), al-Hakim (1739). Die Authentizität des Hadiths wurde von Sufyan ibn Uyaynah, al-Munziri, ad-Dumyati, Ibn al-Qayyim, az-Zarkashi, Ibn Hajar und al-Albani bestätigt. Siehe "al-Mudhallasa" (509), "al-Matjar ar-Rabih" (982), "Zadul-ma'ad" (4/393), "al-Maqasid al-Hasana" (928), "Faidul-Qadir" (7759), "Sahih at-Targhib" (1165).
+        \nAl-Shawkani sagte: "In diesem Hadith ist der Beweis enthalten, dass das Trinken von Zamzam-Wasser dem Trinker Nutzen bringt, egal mit welcher Absicht er es trinkt, ob es sich um Angelegenheiten in dieser Welt oder im Jenseits handelt. Denn die Worte: "Fördert das Erreichen dessen, wofür es getrunken wird" sind allgemein gehalten." Siehe "Nail al-Autar" (5/105). Al-Nawawi sagte: "Die Bedeutung dieses Hadiths besteht darin, dass jemand, der dieses Wasser für etwas Bestimmtes trinkt, dies auch erhält. Wahrlich, Gelehrte und Rechtschaffene haben dies ausprobiert, um ihre Bedürfnisse in Bezug auf diese Welt und das Jenseits zu erfüllen, und haben dies durch die Gnade des Allmächtigen Allah erreicht." Siehe "Tahzib al-Asma' wa-l-Lughaat" (3/139).
+</string>
+
+    <!--  Resources for the BlackStone screen  -->
+    <string name="return_to_the_black_stone_string">Kehrt zum Schwarzen Stein zurück, sagt Takbir und berührt ihn wie zuvor erklärt wurde. Oder zeigt mit der Hand darauf und sagt Takbir. Allah ist groß.</string>
+    <string name="allah_is_great_string">Allahu Akbar</string>
+    <string name="Allah_is_great_string" translatable="false">الله أكبر</string>
+
+    <!--  Resources for the SafaAndMarva screen  -->
+    <string name="direction_towards_mountain_string">Gehen Sie zum Hügel von Safa, um die sieben Runden zwischen den Hügeln von Safa und Marwa (Sa’y) zu absolvieren. Beginnen Sie den Sa’y am Hügel von Safa.\n
+        \n
+        \nBeim Annähern an Safa, liest folgendes:</string>
+    <string name="dua_sofa_and_marva_string">Inna s-Safa wal-Marwata min sha’a’irillahi, faman hajjal-bayta awi’tamara fala junaha ’alayhi ay-yatawwafa bihimaa, wa man tatawwa’a khayran fa-inna Allaha Shakirun ’Alim.\n
+        \n
+        «Wahrlich, as-Safa und al-Marwah sind unter den Riten und Symbolen Allahs. Wer die Pilgerfahrt nach Mekka oder die kleine Pilgerfahrt (‘Umra) absolviert, der begeht keinen Fehler, wenn er zwischen ihnen hin und her geht. Und wer freiwillig eine gute Tat vollbringt, weiß doch, dass Allah dankbar und wissend ist.» (Sure "Al-Baqarah", Vers 158)\n
+        \nDanach sagt man:</string>
+    <string name="dua_when_climbing_mount_safa_string">Nabda’u bima badaa Allahu bihi\n
+        \n«Wir beginnen mit dem, was Allah begonnen hat»\n
+        \nSteigt auf den Hügel Safa hinauf,\nwendet euer Gesicht zur Kaaba und sagt:</string>
+
+    <string name="dua_on_mount_safa_string">Allahu Akbar! Allahu Akbar! Allahu Akbar! La ilaha illa Allah, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, yuhyi wa yumitu, wa huwa ’ala kulli shay’in qadir. La ilaha illa Allah, wahdahu la sharika lahu, anjaza wa’dahu, wa nasara ’abdahu, wa hazamal-ahzaba wahdahu\n
+        \n«Allahu Akbar! Allahu Akbar! Allahu Akbar!\n
+        Es gibt keinen Gott außer Allah, dem Einzigen, ohne Partner. Ihm gehört die Herrschaft, Ihm gehört der Dank. Er gibt Leben und Tod und hat Macht über alle Dinge. Es gibt keinen Gott außer einem Allah, dem Einzigen, ohne Partner. Er hat Sein Versprechen gehalten, Seinem Diener geholfen und allein die feindlichen Stämme besiegt.»\n
+        \nSagen Sie diese Worte dreimal. Zwischen dem ersten und zweiten Mal können Sie das Gebet sprechen, das Sie wünschen. Nach dem dritten Mal wird kein Gebet mehr gesprochen. Dann gehen Sie vom Hügel Safa zum Hügel Marwa und beginnen Sie den rituellen Gang. Ein Durchgang von Safa nach Marwa gilt als ein Mal.\n
+        Auf dem Hügel Marwa sollten Sie dasselbe tun wie auf dem Hügel Safa: sich zur Kaaba wenden, Takbirs und die Schahada aussprechen und zu Allah beten. Wenn Sie die erste Markierung erreichen, die durch die grüne Farbe gekennzeichnet ist, müssen Männer zur zweiten Markierung rennen. Der restliche Weg wird normalerweise zu Fuß zurückgelegt.\n
+        \nWährend des Sä’i-Gebets kann man mit folgendem Dua zu Allah beten:</string>
+
+    <string name="permitted_dua_during_passage_of_safa_and_marwa_string">Rabbighfir warham, innaka antal azzul-akram\n
+        \n«Oh Herr, vergib und erbarme Dich, denn Du bist der Edelste und Großzügigste»\n
+        \nIn diesem Dua gibt es nichts Schlechtes, denn dieses ist von einer ganzen Gruppe rechtschaffener Vorgänger festgelegt worden.\n
+        \nDas Dua beim Verlassen der al-Harām-Moschee.\nNachdem Sie Ihre siebte Runde auf dem Hügel Marwa beendet haben, verlassen Sie die al-Haram-Moschee mit dem linken Fuß und sprechen Sie Folgendes aus:</string>
+
+    <string name="dua_at_exit_of_reserved_mosque_string">Allahumma, salli ala Muhammadin wa sallim! Allahumma, inni as’aluka min fadlika!\n
+        \nOh Allah, segne Muhammad und schenke ihm Frieden! Oh Allah, ich bitte Dich wahrhaftig um Deine Gnade!</string>
+
+    <!--  Resources for the ShaveHead screen  -->
+    <string name="shaving_head_or_shortening_hair_string">Das Rasieren des Kopfes oder das Kürzen der Haare.</string>
+
+    <string name="shave_head_string">Dann schneidet der Mann seine Haare auf dem Kopf gleichmäßig ab oder rasiert sie ganz ab, während die Frau eine Haarsträhne abschneidet, die etwa so dick ist wie ein Daumen. Anmerkung:
+        Es ist besser für diejenigen, die zur Hadsch kommen, ihre Haare zu schneiden, wenn sie nicht genug Zeit haben, um sie zwischen der Umrah und der Hadsch wieder wachsen zu lassen, da das Schneiden der Haare während der Hadsch-Zeremonie erfolgt. Für diejenigen, die nur die Umrah (ohne Hadsch) machen, ist es besser, den Kopf zu rasieren.
+        \nVollständiges Beenden des Ihram-Zustands. Damit ist die Umrah abgeschlossen. Der Mann zieht die Ihram-Kleidung aus. Die Beschränkungen, die im Ihram-Zustand galten, sind aufgehoben.
+        \nAbschließend bitte ich den Allmächtigen Allah, unsere guten Taten anzunehmen und uns für deren Ausführung bis zum Tag unserer Begegnung mit Ihm zu belohnen, «an dem weder Reichtum noch Kinder jemandem Nutzen bringen werden außer denen, die mit reinem Herzen vor Allah treten werden»\n(Der Vers "Die Dichter" 88-89) "Lob sei Allah, dem Herrn der Welten!\n</string>
+
+    <!--  Resources for the LinkBook screen  -->
+
+    <!--  Resources for the Settings screen  -->
+    <string name="feedback_settings_screen_string">FEEDBACK</string>
+    <string name="text_button_feedback_string">Kontakt</string>
+    <string name="evaluate_the_app_string">EVALUATE THE APP</string>
+    <string name="text_button_rate_the_app_string">Die App bewerten</string>
+    <string name="support_the_developer_string">SUPPORT THE DEVELOPER</string>
+    <string name="text_button_support_string">Unterstütze den Entwickler</string>
+    <string name="select_language_settings_string">Sprache auswählen</string>
+    <string name="select_language_string">Sprache wählen</string>
+    <string name="russian_string">Russisch</string>
+    <string name="english_string">Englisch</string>
+    <string name="deutsche_string">Deutsch</string>
+    <string name="french_string">Französisch</string>
+
+</resources>
