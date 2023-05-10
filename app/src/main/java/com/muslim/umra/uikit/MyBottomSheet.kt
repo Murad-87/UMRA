@@ -30,17 +30,14 @@ fun MyBottomSheet(
 
     val context = LocalContext.current
     var isVisibleRu by remember { mutableStateOf(false) }
-    var isVisibleEng by remember { mutableStateOf(false) }
     var isVisibleGer by remember { mutableStateOf(false) }
-    var isVisibleFr by remember { mutableStateOf(false) }
     var currentLocale = Locale.getDefault()
-    val scope = rememberCoroutineScope()
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
             .fillMaxWidth()
-            .height(200.dp)
+            .height(140.dp)
             .padding(top = 10.dp)
             .verticalScroll(rememberScrollState())
     ) {
@@ -94,70 +91,6 @@ fun MyBottomSheet(
                 .fillMaxWidth()
                 .height(30.dp)
                 .clickable {
-                    if (currentLocale != Locale.ENGLISH) {
-                        currentLocale = Locale.ENGLISH
-                    }
-                    Localize.updateLocale(currentLocale)
-                    Locale.setDefault(currentLocale)
-                    val resources = context.resources
-                    val configuration = resources.configuration
-                    configuration.setLocale(currentLocale)
-                    resources.updateConfiguration(configuration, resources.displayMetrics)
-                    sharedPrefsManager.saveAppLanguage(currentLocale.language)
-                    navController.navigate(ConstantsNavigation.UMRA_SCREEN) {
-                        popUpTo(route = ConstantsNavigation.UMRA_SCREEN) { inclusive = true }
-                    }
-                },
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Text(
-                text = stringResource(id = R.string.english_string),
-                fontSize = 18.sp,
-                modifier = Modifier.padding(start = 20.dp)
-            )
-            if (isVisibleEng) {
-                Icon(
-                    painter = painterResource(id = R.drawable.ic_check_language),
-                    contentDescription = null,
-                    tint = Color(0xFF118F17),
-                    modifier = Modifier.padding(end = 20.dp)
-                )
-            }
-        }
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        Row(
-            horizontalArrangement = Arrangement.SpaceBetween,
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(30.dp)
-                .clickable { },
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Text(
-                text = stringResource(id = R.string.french_string),
-                fontSize = 18.sp,
-                modifier = Modifier.padding(start = 20.dp)
-            )
-            if (isVisibleFr) {
-                Icon(
-                    painter = painterResource(id = R.drawable.ic_check_language),
-                    contentDescription = null,
-                    tint = Color(0xFF118F17),
-                    modifier = Modifier.padding(end = 20.dp)
-                )
-            }
-        }
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        Row(
-            horizontalArrangement = Arrangement.SpaceBetween,
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(30.dp)
-                .clickable {
                     if (currentLocale != Locale("de")) {
                         currentLocale = Locale("de")
                     }
@@ -193,14 +126,8 @@ fun MyBottomSheet(
         Locale("ru") -> {
             isVisibleRu = true
         }
-        Locale("en") -> {
-            isVisibleEng = true
-        }
         Locale("de") -> {
             isVisibleGer = true
-        }
-        Locale("fr") -> {
-            isVisibleFr = true
         }
         else -> {
             Locale.getDefault()

@@ -2,6 +2,7 @@ package com.muslim.umra.presentation.screens
 
 import android.content.Intent
 import android.net.Uri
+import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -218,7 +219,9 @@ fun SettingsScreen(
                                 .padding(start = 4.dp)
                         )
 
-                        TextButton(onClick = { /*TODO*/ }) {
+                        TextButton(onClick = {
+                            Toast.makeText(context, "Функция не добавлена", Toast.LENGTH_SHORT).show()
+                        }) {
                             Text(
                                 text = stringResource(id = R.string.text_button_support_string),
                                 color = Color(0xFF0267B9)

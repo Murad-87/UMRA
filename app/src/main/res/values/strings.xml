@@ -107,6 +107,7 @@
         "(Сура «Поэты», аяты 88-89). Хвала Аллаху, Господу миров!\n</string>
 
     <!--  Resources for the LinkBook screen  -->
+    <string name="book_will_be_added_soon_string">В скором времени добавим книгу</string>
 
     <!--  Resources for the Settings screen  -->
     <string name="feedback_settings_screen_string" translatable="false">FEEDBACK</string>
