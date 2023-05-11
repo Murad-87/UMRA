@@ -46,6 +46,15 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+
+    signingConfigs {
+        release {
+            storeFile file("C:\\Users\\Мурад\\OneDrive\\Рабочий стол\\ВСЕ про AS\\mykeys")
+            storePassword "che7373537"
+            keyAlias "umrahApp"
+            keyPassword "che7373537"
+        }
+    }
 }
 
 dependencies {
