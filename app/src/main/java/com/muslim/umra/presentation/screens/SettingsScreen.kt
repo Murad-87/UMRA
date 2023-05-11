@@ -1,5 +1,6 @@
 package com.muslim.umra.presentation.screens
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.widget.Toast
@@ -26,6 +27,7 @@ import com.muslim.umra.uikit.Navbar
 import com.muslim.umra.utils.SharedPreferencesManager
 import kotlinx.coroutines.launch
 
+@SuppressLint("QueryPermissionsNeeded")
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun SettingsScreen(
@@ -43,6 +45,13 @@ fun SettingsScreen(
         data = Uri.parse("mailto:commentmyapp@gmail.com")
         flags = Intent.FLAG_ACTIVITY_NEW_TASK
     }
+
+    val appPackageName = context.packageName
+    val marketIntent = Intent(Intent.ACTION_VIEW).apply {
+        data = Uri.parse("market://details?id=$appPackageName")
+        flags = Intent.FLAG_ACTIVITY_NEW_TASK
+    }
+
 
     Scaffold(
         topBar = {
@@ -168,7 +177,19 @@ fun SettingsScreen(
                                 .padding(start = 4.dp)
                         )
 
-                        TextButton(onClick = { /*TODO*/ }) {
+                        TextButton(onClick = {
+                            val manager = context.packageManager
+                            if (manager.queryIntentActivities(marketIntent, 0).size > 0) {
+                                context.startActivity(marketIntent)
+                            } else {
+                                context.startActivity(
+                                    Intent(
+                                        Intent.ACTION_VIEW,
+                                        Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")
+                                    )
+                                )
+                            }
+                        }) {
                             Text(
                                 text = stringResource(id = R.string.text_button_rate_the_app_string),
                                 color = Color(0xFF0267B9)
@@ -220,7 +241,8 @@ fun SettingsScreen(
                         )
 
                         TextButton(onClick = {
-                            Toast.makeText(context, "Функция не добавлена", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(context, "Функция не добавлена", Toast.LENGTH_SHORT)
+                                .show()
                         }) {
                             Text(
                                 text = stringResource(id = R.string.text_button_support_string),
