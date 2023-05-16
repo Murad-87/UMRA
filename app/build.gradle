@@ -55,6 +55,11 @@ android {
             keyPassword "che7373537"
         }
     }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
 }
 
 dependencies {

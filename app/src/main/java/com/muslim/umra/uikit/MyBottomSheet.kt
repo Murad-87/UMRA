@@ -1,5 +1,6 @@
 package com.muslim.umra.uikit
 
+import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -62,6 +63,7 @@ fun MyBottomSheet(
                     configuration.setLocale(currentLocale)
                     resources.updateConfiguration(configuration, resources.displayMetrics)
                     sharedPrefsManager.saveAppLanguage(currentLocale.language)
+                    Log.d("TEST", "App language current locale: ${currentLocale.language}")
                     navController.navigate(ConstantsNavigation.UMRA_SCREEN) {
                         popUpTo(route = ConstantsNavigation.UMRA_SCREEN) { inclusive = true }
                     }
@@ -101,6 +103,7 @@ fun MyBottomSheet(
                     configuration.setLocale(currentLocale)
                     resources.updateConfiguration(configuration, resources.displayMetrics)
                     sharedPrefsManager.saveAppLanguage(currentLocale.language)
+                    Log.d("TEST", "App language current locale: ${currentLocale.language}")
                     navController.navigate(ConstantsNavigation.UMRA_SCREEN) {
                         popUpTo(route = ConstantsNavigation.UMRA_SCREEN) { inclusive = true }
                     }
